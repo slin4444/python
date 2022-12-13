@@ -14,4 +14,4 @@
 country = 'Russia'
 city = 'Moscow'
 city_age = 875
-print(country,city, city_age)
+print(f'{country}, {city}, {city_age}')
