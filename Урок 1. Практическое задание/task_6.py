@@ -19,12 +19,12 @@
 6-й день: 3,22
 Ответ: на 6-й день спортсмен достиг результата — не менее 3 км.
 """
-a = float(input("Пробежал в 1-й день: "))
-b = float(input("Введи желаемое расстояние: "))
+a = float(input(f'Пробежал в 1-й день: '))
+b = float(input(f'Введи желаемое расстояние: '))
 day = 1
 if a > b:
-    print(day)
+    print(f'{day}')
 while a < b:
-    a = a + a/10
+    a = a + a / 10
     day += 1
-print(day)
+print(f'{day}')
