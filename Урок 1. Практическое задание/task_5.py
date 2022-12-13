@@ -18,16 +18,16 @@
 Введите численность сотрудников фирмы: 10
 Прибыль фирмы в расчете на одного сотрудника = 50.0
 """
-revenue = int(input('Укажите сумму вашей выручки, руб: '))
-costs = int(input('Укажите сумму ваших издержек, руб: '))
+revenue = int(input(f'Укажите сумму вашей выручки, руб: '))
+costs = int(input(f'Укажите сумму ваших издержек, руб: '))
 if revenue > costs:
-    profit = revenue-costs
-    profitability = profit/revenue
-    print (f"Сумма ваших доходов больше издержек на {profit} руб.")
-    staff = int(input("Укажите количество работников в фирме, чел.: "))
-    print(f"Прибыль на одного работника {profit / staff} руб.")
+    profit = revenue - costs
+    profitability = profit / revenue
+    print (f'Сумма ваших доходов больше издержек на {profit} руб.')
+    staff = int(input('Укажите количество работников в фирме, чел.: '))
+    print(f'Прибыль на одного работника {profit / staff:.2f} руб.')
 elif revenue == costs:
-    print ("Сумма ваших издержек равна доходу")
+    print (f'Сумма ваших издержек равна доходу')
 else:
-    print (f"Сумма ваших издержек превышает доход на {profit} руб.")
+    print (f'Сумма ваших издержек превышает доход')
     
