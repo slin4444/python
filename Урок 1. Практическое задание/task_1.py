@@ -15,3 +15,10 @@ country = 'Russia'
 city = 'Moscow'
 city_age = 875
 print(f'{country}, {city}, {city_age}')
+
+name = input(f'Как Вас зовут? - ')
+print(f'{name}')
+age = input(f'Сколько Вам лет? - ')
+print(f'{age}')
+city = input(f'В каком городе Вы живете? - ')
+print(f'{city}')
